@@ -23,7 +23,7 @@ const Logo = styled.img`
     padding-right: 14px;
 `;
 
-const Text = styled.span`
+const Link = styled.a`
     font-family: source sans pro;
     font-size: 16px;
     font-weight: 400;
@@ -35,5 +35,5 @@ const Text = styled.span`
 export {
     Button,
     Logo,
-    Text
+    Link
 }

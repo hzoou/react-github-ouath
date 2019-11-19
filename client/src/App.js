@@ -2,6 +2,7 @@ import dotenv from 'dotenv';
 
 import React from 'react';
 import GitHubLogin from './components/GitHubLogin';
+import GitHubLogin2 from './components/GitHubLogin2';
 
 dotenv.config();
 
@@ -22,8 +23,9 @@ function App() {
                 redirectUri="http://localhost:3000/"
                 onSuccess={onSuccessGithub}
                 onFailure={onFailureGithub}
-                buttonText="Sign in with GitHub"
+                buttonText="Sign in with GitHub - Client"
             />
+            <GitHubLogin2 />
         </>
     );
 }
